@@ -419,11 +419,24 @@ header.sticky {
                   Testimonial CSS 
 ================================================== */
 .testimonial{
+  position: relative;
+  /* background:url(../images/client-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 100px 0 250px;
+}
+.testimonial::after{
+  position: absolute;
+  content: '';
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 200px;
   background:url(../images/client-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0 250px;
 }
 .testimonial .feedback h4{
   font-family: 'Times New Roman', Times, serif;

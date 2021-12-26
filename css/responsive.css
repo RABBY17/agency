@@ -167,6 +167,13 @@
     .expertise-item{
         margin-top: 30px !important;
     }
+
+    .testimonial::after{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
     .testimonial{
         padding: 50px 0 !important;
     }
